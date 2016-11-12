@@ -1,0 +1,22 @@
+/**index.wxss**/
+.wxtable{
+    display: flex;
+}
+
+.colCap{
+    height: 40px;
+    border-bottom: 1px solid #333;
+}
+.scroll-view_H{
+    background-color: red;
+    width: 80%;
+}
+.left{
+    width: 20%;
+}
+.scroll-view-item_H{
+    background-color: red;
+    height: 40px;
+    width: 800px;
+    border-bottom: 1px solid #333;
+}

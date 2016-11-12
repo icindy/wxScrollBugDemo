@@ -1,0 +1,13 @@
+<view class="wxtable">
+    <view class="left">
+        <view class="colCap" wx:for="{{array}}">
+            {{index}}
+        </view>  
+    </view>
+    <scroll-view class="scroll-view_H right" scroll-x="true" style="height:{{height}}px">
+        <view class="scroll-view-item_H" wx:for="{{array}}">
+            {{index}}可横向滚动区域
+        </view>    
+    </scroll-view>
+
+</view>
